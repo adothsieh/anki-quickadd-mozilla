@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <section id="deck-type">
+            <div class="dropdown" id="deck-dropdown">
+                <label for="decks">Deck</label>
+                <select name="decks" id="deck-selector">
+                </select>
+            </div>
+            <div class="dropdown" id="note-dropdown">
+                <label for="notes">Note</label>
+                <select name="notes" id="note-selector">
+                </select>
+            </div>
+        </section>
+        <section id="fields">
+        </section>
+        <section id="tags">
+            <div id="tag-input">
+                <label for="tags">Tags</label>
+                <input type="text" name="tags" id="tag-input-text">
+            </div>
+        </section>
+        <section id="buttons">
+            <button type="button" id="clear-button">Clear</button>
+            <button type="button" id="submit-button">Submit</button>
+        </section>
+        <script src="anki_adder.js"></script>
+    </body>
+</html>

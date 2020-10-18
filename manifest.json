@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Anki QuickAdd",
+    "version": "1.0",
+    "description": "Quick Add Anki Notes From Browser",
+    "icons": {},
+    "permissions": [
+        "tabs",
+        "*://localhost/*"
+    ],
+    "sidebar_action": {
+        "default_title": "Anki Adder",
+        "default_panel": "src/popup/anki_adder.html"
+    },
+    "commands": {
+        "_execute_sidebar_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+Y"
+            }
+        }
+    }
+}
